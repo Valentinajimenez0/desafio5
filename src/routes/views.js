@@ -20,4 +20,5 @@ router.get('/products', isAuthenticated, (req, res) => {
 
     res.render('products', { user });
 })
+
 export default router;
